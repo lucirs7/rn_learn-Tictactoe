@@ -3,9 +3,11 @@
 Game app for tic tac toe game.
 
 ### Android
-
+![Android: home](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-android1-small.png) ![Android: game start](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-android2-small.png) ![Android: game end](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-android3-small.png) 
 
 ### iOS
+![iOS: home](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-ios1-small.png) ![iOS: game start](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-ios2-small.png) ![iOS: game end](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-ios3-small.png)
+
 
 ### Future to-do's
 ---
