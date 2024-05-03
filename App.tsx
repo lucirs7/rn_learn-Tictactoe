@@ -1,12 +1,21 @@
 import { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Entypo } from '@expo/vector-icons';
+import { Button } from 'native-base';
+
+let items: string[] | boolean[] = new Array(9).fill('empty');
 
 export default function App() {
-  const [isCross, setIsCross] = useState();
-  const [winMessage, setWinMessage] = useState();
+  const [isCross, setIsCross] = useState(false);
+  const [winMessage, setWinMessage] = useState('');
 
-  const drawItem = () => {
-    //TODO Decide what to draw: circle or cross or default.
+  const drawItem = (itemIndex: number) => {
+    if (items.at(itemIndex) === 'empty') {
+      items[itemIndex] = isCross;
+      setIsCross(!items.at(itemIndex));
+    }
+
+    //TODO Check for win
   };
 
   const chooseItemIcon = () => {
