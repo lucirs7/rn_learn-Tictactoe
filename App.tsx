@@ -1,11 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
+import { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  const [isCross, setIsCross] = useState();
+  const [winMessage, setWinMessage] = useState();
+
+  const drawItem = () => {
+    //TODO Decide what to draw: circle or cross or default.
+  };
+
+  const chooseItemIcon = () => {
+    //TODO Choose appropriate icon
+  };
+
+  const chooseItemColour = () => {
+    //TODO Chose colour for icon
+  };
+
+  const resetGame = () => {
+    //TODO Reset all values and states
+  };
+
+  const winGame = () => {
+    //TODO Decide/Check winner
+  };
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text>Tic Tac Toe!</Text>
     </View>
   );
 }
