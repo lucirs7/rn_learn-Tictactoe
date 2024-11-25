@@ -5,7 +5,7 @@ Game app for tic tac toe game.
 A simple tic tac toe app game with a 3x3 grid.
 This app is for two players (2 people), it doesn't have player vs machine behaviour.
 As it can be seen in the pictures, all squares in the grid have an icon that tell whether user can click on it or it has already been clicked.
-When one wins, a text saying who is the winner is displayed over the grid.
+When one wins, a text saying who is the winner is displayed over the grid. A button to reset the game and play again is also available underneath the grid.
 
 ### Android
 ![Android: home](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-android1-small.png) ![Android: game start](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-android2-small.png) ![Android: game end](https://github.com/lucirs7/rn_learn-Tictactoe/blob/master/screenshots/ss-android3-small.png) 
